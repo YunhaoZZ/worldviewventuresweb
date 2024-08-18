@@ -1,0 +1,135 @@
+.nav-bar {
+  background-color: #0a0a0a;
+  padding: 1rem 15rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.navbar-left {
+  flex: 1;
+
+  .logo {
+    display: block;
+    padding: 0 0;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: auto;
+      height: 40px;
+    }
+  }
+}
+
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  nav {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      font-size: 18px;
+      color: #ffffff;
+      display: inline-block;
+      line-height: auto;
+      height: auto;
+      position: relative;
+      text-decoration: none;
+      margin: auto 25px;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+
+  .dropdown {
+    display: inline-block;
+    
+    .product-link {
+      &:hover {
+        color: #ddd;
+      }
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      border-radius: 4px;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+
+      .dropdown-section {
+        margin-bottom: 20px;
+
+        h4 {
+          margin-bottom: 10px;
+          color: #fff;
+        }
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+          
+          li {
+            margin-bottom: 10px;
+
+            a {
+              color: #ddd;
+              text-decoration: none;
+
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
+        }
+
+        p {
+          margin: 0;
+          color: #ccc;
+        }
+      }
+    }
+
+    &:hover .dropdown-content {
+      display: block;
+    }
+  }
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+
+  .icon-menu,
+  .icon-user,
+  .icon-cart {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
