@@ -32,11 +32,12 @@ const TopNavBar = () => {
                         onClick={() => setShowNav(false)}>
                         About
                     </NavLink>
-                    <div className="dropdown">
+                    {/* use this https://medium.com/how-to-react/how-to-create-a-dropdown-menu-on-hover-in-react-js-without-any-package-b16b2f76db71 */}
+                    <div className="dropdown"> 
                         <NavLink
                             activeclassname="active"
                             className="product-link"
-                            to="/products"
+                            to="/oil-gas"
                             onClick={() => setShowNav(false)}
                         >
                             Product
@@ -45,10 +46,9 @@ const TopNavBar = () => {
                             <div className="dropdown-section">
                                 <h4>Product Overview</h4>
                                 <ul>
-                                    <li><Link to="/product1">Product 1</Link></li>
-                                    <li><Link to="/product2">Product 2</Link></li>
-                                    <li><Link to="/product3">Product 3</Link></li>
-                                    <li><Link to="/product4">Product 4</Link></li>
+                                    <li><Link to="/oil-gas">Oil & Gas</Link></li>
+                                    <li><Link to="/alt-energy">Alternative Energy</Link></li>
+                                    <li><Link to="/micro-inv">Microinvestment for Entrepreneurs</Link></li>
                                 </ul>
                             </div>
                             <div className="dropdown-section">
@@ -68,7 +68,7 @@ const TopNavBar = () => {
                 </nav>
             </div>
             <div className="navbar-right">
-                <div className="icon-menu">
+                {/* <div className="icon-menu">
                     <i className="fas fa-bars"></i>
                 </div>
                 <div className="icon-user">
@@ -76,6 +76,16 @@ const TopNavBar = () => {
                 </div>
                 <div className="icon-cart">
                     <i className="fas fa-shopping-cart"></i>
+                </div> */}
+                <div>
+                <NavLink
+                        activeclassname="active"
+                        className="contact-link"
+                        to="/contact"
+                        onClick={() => setShowNav(false)}
+                    >
+                        Login
+                    </NavLink>
                 </div>
             </div>
         </div>

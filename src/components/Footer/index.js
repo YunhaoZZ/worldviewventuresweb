@@ -6,49 +6,18 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-columns">
         <div className="footer-column">
-          <h4>Our research</h4>
+          <h4>Our contact</h4>
           <ul>
-            <li><a href="/">Overview</a></li>
-            <li><a href="/">Index</a></li>
+            <li><a href="/">Number: fill</a></li>
+            <li><a href="/">Email: fill</a></li>
+            <li><a href="/">Address: randome address <br/> here </a></li>
           </ul>
         </div>
         <div className="footer-column">
           <h4>Latest advancements</h4>
           <ul>
-            <li><a href="/">GPT-4</a></li>
-            <li><a href="/">GPT-4o mini</a></li>
-            <li><a href="/">DALL·E 3</a></li>
-            <li><a href="/">Sora</a></li>
-          </ul>
-        </div>
-        <div className="footer-column">
-          <h4>ChatGPT</h4>
-          <ul>
-            <li><a href="/">For Everyone</a></li>
-            <li><a href="/">For Teams</a></li>
-            <li><a href="/">For Enterprises</a></li>
-            <li><a href="/">ChatGPT login ↗</a></li>
-            <li><a href="/">Download</a></li>
-          </ul>
-          <h4>API</h4>
-          <ul>
-            <li><a href="/">Platform overview</a></li>
-            <li><a href="/">Pricing</a></li>
-            <li><a href="/">Documentation ↗</a></li>
-            <li><a href="/">API login ↗</a></li>
-          </ul>
-        </div>
-        <div className="footer-column">
-          <h4>Safety overview</h4>
-          <ul>
-            <li><a href="/">Safety overview</a></li>
-            <li><a href="/">Safety standards</a></li>
-          </ul>
-          <h4>Teams</h4>
-          <ul>
-            <li><a href="/">Safety Systems</a></li>
-            <li><a href="/">Preparedness</a></li>
-            <li><a href="/">Superalignment</a></li>
+            <li><a href="/">Post 1</a></li>
+            <li><a href="/">Post 2</a></li>
           </ul>
         </div>
         <div className="footer-column">
@@ -73,15 +42,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>OpenAI © 2015–2024</p>
-        <div className="footer-icons">
+        <p>WorldviewVentures © 2024–2025</p>
+        {/* <div className="footer-icons">
           <a href="/" className="footer-icon"><i className="fab fa-twitter"></i></a>
           <a href="/" className="footer-icon"><i className="fab fa-youtube"></i></a>
           <a href="/" className="footer-icon"><i className="fab fa-linkedin"></i></a>
           <a href="/" className="footer-icon"><i className="fab fa-github"></i></a>
           <a href="/" className="footer-icon"><i className="fab fa-instagram"></i></a>
           <a href="/" className="footer-icon"><i className="fab fa-tiktok"></i></a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

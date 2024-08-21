@@ -5,13 +5,15 @@
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 40px;
   }
   
   .footer-columns {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr); /* 6 equal columns */
+    gap: 150px;
   }
   
   .footer-column {

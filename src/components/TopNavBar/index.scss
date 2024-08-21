@@ -1,6 +1,6 @@
 .nav-bar {
   background-color: #0a0a0a;
-  padding: 1rem 15rem;
+  padding: 0rem 20rem 0rem 15rem;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -53,9 +53,12 @@
   }
 
   .dropdown {
+    position: relative;
     display: inline-block;
     
     .product-link {
+      height: 100%;
+      
       &:hover {
         color: #ddd;
       }
@@ -131,5 +134,20 @@
     &:hover {
       opacity: 0.7;
     }
+  }
+}
+
+a {
+  font-size: 18px;
+  color: #ffffff;
+  display: inline-block;
+  line-height: auto;
+  height: auto;
+  position: relative;
+  text-decoration: none;
+  margin: auto 25px;
+
+  &:hover {
+    color: #ddd;
   }
 }

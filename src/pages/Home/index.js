@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="content-block mission-block" style={{ backgroundColor: 'rgba(3, 3, 3, 1)', }}>
+      <div className="content-block mission-block" style={{ backgroundImage: `url('${background}')` }}>
         <div className="mission-text">
           <h2>Our Mission</h2>
           <p>
