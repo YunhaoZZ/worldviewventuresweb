@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/worldviewventuresweb/static/css/main.d377fa6c.css",
-    "main.js": "/worldviewventuresweb/static/js/main.9a4782b8.js",
+    "main.js": "/worldviewventuresweb/static/js/main.def68ed3.js",
     "static/js/453.3c97da2e.chunk.js": "/worldviewventuresweb/static/js/453.3c97da2e.chunk.js",
     "static/media/randomBackground.jpg": "/worldviewventuresweb/static/media/randomBackground.dd7aba53060cda91869b.jpg",
     "static/media/WV-Horz-White.png": "/worldviewventuresweb/static/media/WV-Horz-White.69fd2909442cebe9988f.png",
     "index.html": "/worldviewventuresweb/index.html",
     "main.d377fa6c.css.map": "/worldviewventuresweb/static/css/main.d377fa6c.css.map",
-    "main.9a4782b8.js.map": "/worldviewventuresweb/static/js/main.9a4782b8.js.map",
+    "main.def68ed3.js.map": "/worldviewventuresweb/static/js/main.def68ed3.js.map",
     "453.3c97da2e.chunk.js.map": "/worldviewventuresweb/static/js/453.3c97da2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d377fa6c.css",
-    "static/js/main.9a4782b8.js"
+    "static/js/main.def68ed3.js"
   ]
 }
